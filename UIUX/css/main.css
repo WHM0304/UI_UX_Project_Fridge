@@ -21,11 +21,11 @@ div.main {
   border-radius: 15px;
 }
 
-div.setting {
+div.main header {
   display: flex;
   justify-content: end;
 }
-div.setting i {
+div.main header i {
   font-size: 1.2rem;
   margin: 10px 15px;
   color: #4e4e4e;
@@ -43,7 +43,7 @@ div.control {
   font-size: 30px;
   background-color: #f4f4f4;
   border-radius: 10px;
-  height: 9%;
+  height: 10%;
 }
 
 div.control ul {
@@ -61,4 +61,7 @@ div li.add {
 div li {
   font-size: 1.5rem;
   color: #4e4e4e;
+}
+i:hover {
+  opacity: 0.5;
 }

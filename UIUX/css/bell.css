@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+section {
+  width: 100%;
+  flex: 1;
+}
+section ul {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  list-style: none;
+}
+section li {
+  padding: 5%;
+  width: 80%;
+  flex: 1;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
